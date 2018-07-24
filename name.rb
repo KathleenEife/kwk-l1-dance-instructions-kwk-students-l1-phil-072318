@@ -1,6 +1,5 @@
-def say_hello(name)
-  puts "Hello #{name}!"
+def say_hello(your_name, my_name)
+  puts "Hello #{your_name}! I'm #{my_name}."
 end
-say_hello("Alana")
-say_hello("SMoney")
-say_hello("Madison")
+
+say_hello("Alana", "Kathleen")
